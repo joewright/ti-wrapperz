@@ -1,0 +1,13 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 2.0.0
+description: HTML entity decoder
+
+
+# these should not be edited
+name: Node Ent
+moduleid: ent
+platform: commonjs
+minsdk: 3.4.1.GA
