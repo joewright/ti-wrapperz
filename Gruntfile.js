@@ -14,12 +14,12 @@ module.exports = function(grunt) {
 		titaniumifier: {
 			"module": {
 				files: {
-					'./': path.join(__dirname, 'node-ent')
+					'./commonjs/dist': path.join(__dirname, 'node-ent')
 				},
 				options: {
 					guid: '51d71d1d-9b0e-ad82-41f4-87fe0eb89df3',
 					// You can create a CommonJS module **without** the dependencies bundled
-					bare: true
+					bare: false
 				}
 			}
 		},
