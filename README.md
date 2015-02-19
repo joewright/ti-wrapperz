@@ -1,4 +1,11 @@
-ti-ent
+ti-wrapperz
 ======
 
-Titanium module wrapper for node-ent by substack
+Titanium module wrappers for various node packages
+
+
+See gruntfile and submodules.
+
+```
+grunt titaniumifier:node-sql
+```

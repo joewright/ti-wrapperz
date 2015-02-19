@@ -1,3 +1,6 @@
 [submodule "node-ent"]
 	path = node-ent
 	url = https://github.com/substack/node-ent
+[submodule "node-sql"]
+	path = node-sql
+	url = https://github.com/brianc/node-sql
